@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
-
+import Co from './Co.css';
 const Contact = () => {
   const {
     register,
@@ -67,7 +67,7 @@ const Contact = () => {
   return (
     <div id='contact'>
         
-    <h2> Contact us</h2>
+    <h1 style={{textAlign:"center",  fontSize:"5rem"}}> Contact us</h1>
     <div className='ContactForm' align='center'>
       <div className='container'>
         <div className='row'>
@@ -168,7 +168,7 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <button
+                <button style={{height:"5rem", width:"10rem"}}
                   className='submit-btn btn btn-primary'
                   disabled={disabled}
                   type='submit'

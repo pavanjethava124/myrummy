@@ -5,7 +5,13 @@
     box-sizing: border-box;
     font-family: "Jost", sans-serif;
   }
-  .icons {
+
+   body{
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+  }
+   .icons {
     margin:2px;
     position: fixed;
     top:  30%;
@@ -382,7 +388,10 @@
       grid-template-columns: 1rem 4fr 1fr 1fr 1rem;
     }
     
-  
+   .down
+  {
+    color: #000;
+  }
     .logo,
     .social-media ul {
       height: 6rem;

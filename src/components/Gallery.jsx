@@ -34,7 +34,7 @@ const Gallery =() => {
             <div className="row my-5">
             {
                 items.map((elem) => {
-                    const {id,name,image,description,price} =elem;
+                    const {id,name,image,description,price,download} =elem;
 
             return(
 
@@ -52,7 +52,7 @@ const Gallery =() => {
   <div className="menu-price-book">
     <div className="menu-book-divide d-flex justify-content-between">
       <h2>{price}</h2>
-      <a  href="#">
+      <a  href={download}>
         <button className="btn btn-danger custom-size">Download</button>
       </a>
     </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaFacebookSquare,FaInstagramSquare,FaTwitter } from "react-icons/fa";
 import '../components/Footer.css';
+import {Link} from 'react-scroll'
 
 function  Footer() {
   return (
@@ -14,14 +15,13 @@ function  Footer() {
     </div>
 
     <div class="footer-links">
-      <a href="#"><span>👤</span> About Us</a>
-      <a href="#"><span>📞</span> Contact Us</a>
-      <a href="#"><span>🔒</span> Privacy Policy</a>
-      <a href="#"><span>📄</span> Terms & Conditions</a>
-      <a href="#"><span>⚠️</span> Disclaimer</a>
+    <Link to='header'><span>&#9962;</span> Home</Link>
+      <Link to='about'><span>👤</span> About Us</Link>
+      <Link to='contact'><span>📞</span> Contact Us</Link>
+      <Link to='disclaimer'><span>⚠️</span> Disclaimer</Link>
     </div>
 
-    <p>Copyright © <strong>RummyBonusApp.Com</strong> All Rights Reserved</p>
+    <p>Copyright © PJ <strong>RummyBonusApp.Com</strong> All Rights Reserved</p>
   </footer>
 
 )
