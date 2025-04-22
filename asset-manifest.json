@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/myrummy/static/css/main.b0f6ccca.css",
-    "main.js": "/myrummy/static/js/main.fd7e7fb8.js",
+    "main.css": "/myrummy/static/css/main.9cfa29f6.css",
+    "main.js": "/myrummy/static/js/main.eeb5232a.js",
     "static/media/cover page.png": "/myrummy/static/media/cover page.43c66580d8194ec9dd07.png",
     "static/media/Png(logo).png": "/myrummy/static/media/Png(logo).75f13db80188890b899b.png",
     "index.html": "/myrummy/index.html",
-    "main.b0f6ccca.css.map": "/myrummy/static/css/main.b0f6ccca.css.map",
-    "main.fd7e7fb8.js.map": "/myrummy/static/js/main.fd7e7fb8.js.map"
+    "main.9cfa29f6.css.map": "/myrummy/static/css/main.9cfa29f6.css.map",
+    "main.eeb5232a.js.map": "/myrummy/static/js/main.eeb5232a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0f6ccca.css",
-    "static/js/main.fd7e7fb8.js"
+    "static/css/main.9cfa29f6.css",
+    "static/js/main.eeb5232a.js"
   ]
 }
